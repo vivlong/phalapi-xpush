@@ -1,0 +1,27 @@
+{
+	"name": "vivlong/phalapi-xpush",
+	"description": "PhalApi 2.x 扩展类库：支持jpush、AliyunPush的推送扩展。",
+	"type": "library",
+	"keywords": [
+		"phalapi", "phalapi-xpush", "xpush"
+	],
+	"license": "MulanPSL-2.0",
+	"minimum-stability": "dev",
+	"homepage": "https://www.phalapi.net/",
+	"authors": [{
+		"name": "vivlong",
+		"email": "vivlonglz@gmail.com",
+		"homepage": "http://vivlong.github.io",
+		"role": "Developer"
+	}],
+	"require": {
+		"php": ">=7.0.0",
+		"alibabacloud/sdk": "^1.8",
+    "jpush/jpush": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"PhalApi\\Xpush\\": "src"
+		}
+	}
+}
